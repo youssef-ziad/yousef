@@ -1,0 +1,9 @@
+$primary-color:#000;
+$secondary-color:#099;
+.text1 ,.text2 {
+background-color: $primary-color;
+}
+.text1 .p ,.text1 h1 ,.text2 p ,.text2 h2{
+    color: $secondary-color;
+}
+

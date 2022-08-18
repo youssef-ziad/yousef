@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fcfcfc;
+}
+header nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: top 50px; ;
+}
+header nav h2{
+ font-size: 40px;
+ color:rgb(41, 0, 249);
+}
+header nav h2 span{
+    color: #3a88ec;
+}
+
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    color: black;
+    padding: 0 26px;
+    font-weight: bold;
+    font-size: 18px;
+}
+header nav button{
+background-color: #3a88ec ;
+border: 0;
+padding: 7px 25px;
+color: #FFF9ED;
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+}

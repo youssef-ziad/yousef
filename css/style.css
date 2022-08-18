@@ -1,0 +1,14 @@
+a{
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: rgb(208, 35, 35);
+  background-color: black;
+}.text1{
+  color: blue;
+}
+.text2{
+  color: crimson;
+}

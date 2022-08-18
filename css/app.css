@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #454141;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+header nav h2 {
+    color: #D99162;
+    font-size: 23px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    color: #FFF9ED;
+    padding: 0 26px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav button {
+    background-color: #D99162;
+    border: 0;
+    padding: 7px 25px;
+    color: #FFF9ED;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Start hero section */
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: 87px;
+}
+
+.hero-section .hero-section-data {
+    margin: 30px;
+}
+
+.hero-section .hero-section-data h1 {
+    color: #FFF9ED;
+    font-size: 60px;
+    margin-left: 99px;
+}
+
+.hero-section .hero-section-img {
+    margin-right: 193px;
+}
+
+/* End hero section */
+
+
+
+/* Start About-Us */
+.about-us {
+    background-color: #FFF9ED;
+    display: flex;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 808px;
+}
+
+.about-us .about-us-data {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about-us .about-us-data .my-porfolio p {
+    color: #454141;
+    font-size: 32px;
+}
+
+.about-us .about-us-data .my-porfolio a {
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    color: #454141;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.about-us .about-us-data .case-study p {
+    background-color: #D99162;
+    color: #FFF9ED;
+    font-size: 32px;
+    padding: 50px 50px 0;
+    margin-top: 50px;
+    margin: bottom 20px;
+
+}
+
+.about-us .about-us-data .case-study a {
+    text-align: right;
+}
+
+/* End About-Us */
